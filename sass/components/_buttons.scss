@@ -1,0 +1,107 @@
+/* BUTTON */
+.btn {
+  // Main Button
+  &:link,
+  &:visited {
+    text-decoration: none;
+    font-size: 25px;
+    color: $color-black;
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 25px;
+    box-shadow: 0 2px 4px #535353;
+    transform: translate(0);
+    transition: all 0.3s;
+    text-transform: uppercase;
+  }
+
+  &:active,
+  &:hover {
+    box-shadow: 0 5px 8px #535353;
+    transform: translateY(-3px);
+  }
+  // Gold Button
+  &-gold {
+    border: 1px solid $color-gold;
+
+    &:active,
+    &:hover {
+      border: 1px solid $color-black;
+      color: $color-white;
+      background-color: $color-gold;
+    }
+
+    &-2 {
+      border: 1px solid $color-gold;
+      background-color: $color-gold;
+
+      &:active,
+      &:hover {
+        border: 1px solid #002a14;
+        color: $color-white;
+        background-color: $color-purple;
+        transform: scale(1.5);
+      }
+    }
+  }
+
+  &-header-left {
+    animation-name: slideInLeft;
+    animation-duration: 0.7s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+  }
+
+  &-header-right {
+    animation-name: slideInRight;
+    animation-duration: 0.7s;
+    margin-left: 15px;
+  }
+
+  &-about {
+    text-align: center;
+    padding-bottom: 80px;
+  }
+  // Green Button
+  &-green {
+    background-color: #fff;
+    border: 1px solid #002a14;
+  }
+  // Cart BUTTON
+
+  &-cart {
+
+    box-shadow: 0 4px 6px $color-box-shadow;
+
+    &:link,
+    &:visited {
+      transform: translateY(0);
+      transition: all 0.3s;
+    }
+
+    &:active,
+    &:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 6px 8px $color-box-shadow;
+    }
+  }
+  // Footer Button
+  &-footer {
+    &:link,
+    &:visited {
+      color: $color-white;
+      text-decoration: none;
+      font-weight: 100;
+      padding: 4px;
+      transition: all 0.3s;
+    }
+
+    &:active,
+    &:hover {
+      background-color: $color-gold;
+      transform: scale(1.05);
+      border-radius: 5px;
+      padding: 4px;
+    }
+  }
+}

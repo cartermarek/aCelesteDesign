@@ -1,0 +1,17 @@
+/* HEADER */
+.header {
+    background-image: url("../css/img/main-logo.jpg");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.header__button {
+    top: 73%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: inline-block;
+    position: absolute;
+    z-index: 12;
+}

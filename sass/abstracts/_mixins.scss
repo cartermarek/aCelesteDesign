@@ -1,0 +1,104 @@
+@mixin clearfix {
+      content: "";
+      clear: both;
+      display: table;
+}
+
+@media only screen and (max-width: 780px) {
+
+  //HEADER
+  .btn-header-left,
+  .btn-header-right {
+    visibility: hidden;
+  }
+
+  .header {
+    background-image: url("../img/about-us-1.jpg");
+  }
+
+  .wrapper {
+    font-size: 85%;
+  }
+
+  #quantity {
+    width: 20px !important;
+    margin: 0 0 10px 0 !important;
+  }
+
+  .product-right {
+    margin: auto 0;
+  }
+
+  // ABOUT US
+}
+
+@media only screen and (max-width: 600px) {
+  .cart-menu {
+    width: 100%;
+  }
+
+  //about us
+  .white-bg-box {
+    width: 75% !important;
+    font-size: 50% !important;
+  }
+
+  .wrapper {
+    grid-template-columns: 1fr 1fr !important;
+    font-size: 85%;
+  }
+
+  .product-top {
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+
+  .product-left {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    margin: 0 auto !important;
+  }
+
+  .product-photo-box img {
+    height: 250px;
+    width: auto;
+  }
+
+  // form
+  .product-middle {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    margin: 0 0 10px 0 !important;
+    margin: 0 auto;
+  }
+
+  .form-title {
+    margin: 0 !important;
+  }
+
+  .form_label {
+    margin-top: 10px !important;
+  }
+
+  select {
+    margin: 0 !important;
+  }
+
+  .product-right {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+
+  //map
+
+  .find-us-text {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    text-align: center;
+  }
+
+
+  .two {
+    visibility: hidden;
+  }
+}

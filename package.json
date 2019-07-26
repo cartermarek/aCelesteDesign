@@ -1,0 +1,14 @@
+{
+  "name": "celeste-designs",
+  "version": "1.0.0",
+  "description": "Landing page for Celeste Designs",
+  "main": "form-validation.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/styles.css -w"
+  },
+  "author": "Marek Carter",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.12.0"
+  }
+}

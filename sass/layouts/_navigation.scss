@@ -1,0 +1,48 @@
+.nav {
+
+display: absolute;
+  background-color: $color-black;
+  width: 100%;
+  @include clearfix;
+
+  &-list {
+    list-style: none;
+    margin: 0;
+    padding: 5px;
+    float: right;
+    color: $color-white;
+  }
+
+  &-items {
+    display: inline-block;
+    margin: 5px;
+
+    &:last-of-type {
+      margin-right: 15px;
+    }
+
+    &-links {
+      text-decoration: none;
+      margin: 0 8px;
+      color: inherit;
+      transition: border-bottom 1s;
+
+      &:hover,
+      &:active {
+        border-bottom: 1px solid $color-gold;
+        backface-visibility: hidden;
+      }
+    }
+  }
+}
+
+.cart-notification {
+  background-color: red;
+  border-radius: 50%;
+  font-size: 12px;
+  text-align: center;
+  width: 22px;
+  position: absolute;
+  top: -7px;
+  right: 3%;
+}

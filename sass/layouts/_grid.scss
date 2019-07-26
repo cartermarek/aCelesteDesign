@@ -1,0 +1,78 @@
+/* GRID LAYOUT */
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-rows: minmax(50px, auto);
+  column-gap: 5px;
+  row-gap: 1em;
+}
+
+.wrapper-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows: minmax(50px, auto);
+  padding: 0 25px;
+  color: $color-white;
+}
+
+.product-top {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  text-align: center;
+}
+
+.product-left {
+  margin: 0 0 auto auto;
+}
+
+.product-bottom-text {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  text-align: center;
+  margin: 0;
+  font-size: 20px;
+  font-style: italic;
+}
+
+
+// FIND US SECTION
+.section-find-us {
+  padding: 80px 0;
+  background-image: linear-gradient(rgba(0,0,0, .65), rgba(0,0,0, .65)), url("../../img/med-equip-1.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.find-us {
+  grid-column-start: 1;
+  grid-column-end: 4;
+
+  & h1 {
+    text-align: center;
+  }
+}
+
+.find-us-text {
+  margin: 0 auto;
+  color: $color-white;
+}
+
+.find-us-text h4 {
+  margin: 25px 0;
+  font-size: 20px;
+  color: $color-gold;
+
+}
+
+.icon-size {
+    font-size: 15px;
+}
+
+.two {
+  background-color: blue;
+}
+
+.fab {
+  color: $color-white;
+}
