@@ -13,9 +13,10 @@
   }
 
   .header {
-    background-image:  url("../img/about-us-1.jpg") !important;
-    width: 100% !important;
-    //height: 300px !important;
+    //background-image:  url("../img/about-us-1.jpg") !important;
+    width: auto !important;
+    background-size: cover !important;
+    max-height: 400px !important;
     background-position: 20% 20% !important;
   }
 
@@ -106,5 +107,28 @@
 
   .two {
     visibility: hidden;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .header {
+    height: 350px !important;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .header {
+    height: 300px !important;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .header {
+    height: 100px !important;
+  }
+
+  html,
+  body {
+    font-size: 15px !important;
   }
 }

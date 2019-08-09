@@ -1,11 +1,22 @@
 /* GRID LAYOUT */
 
 .wrapper {
+/*  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-auto-rows: minmax(50px, auto);
+  column-gap: 5px;
+  row-gap: 1em;*/
+}
+
+.box {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-auto-rows: minmax(50px, auto);
   column-gap: 5px;
   row-gap: 1em;
+  border: 2px solid $color-black;
+  border-radius: 3px;
+  padding: 10px;
 }
 
 .wrapper-2 {
@@ -18,7 +29,7 @@
 
 .product-top {
   grid-column-start: 1;
-  grid-column-end: 4;
+  grid-column-end: 5;
   text-align: center;
 }
 

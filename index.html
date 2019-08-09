@@ -76,7 +76,7 @@
 
 
     <div class="cart-total">
-       TOTAL
+      TOTAL
     </div>
     <div class="paypal button">
 
@@ -103,11 +103,13 @@
           A little something about us
         </h2>
         <blockquote class="section-about-text--small">
-          <span class="quote">&ldquo;</span>Hi future customer, <span class="paragraph">I recently opened a scrubs store on the west side of Cincinnati, Ohio. It is not your regular scrubs store like you would see in your town or inside a mall. I
-            like to call it a <em>boutique</em>. It has the boutique look and comfortable feel from the first impression. The more people share the scrubs on Facebook, the more inquiries I got. I appreciate all the support of making this dream come
-            true. Happy shopping!</span><span class="quote">&rdquo;</span><br>
+          <span class="quote">&ldquo;</span>Hello future customer! <span class="paragraph"> A Celeste Design is a scrubs <em>boutique</em> located on the Westside of Cincinnati, OH. It's not your regular scrubs store that you would see in your town
+            or local mall.
+            I like to call it a boutique. It has its boutique feel and look. I wanted to give my customers a wonderful shopping experience giving its a comfortable feel and stylish look. As the medical field grows, the need for scrubs grow. So if
+            you wear Scrubs
+            everyday like myself, check us out to see what we have to offer. Happy shopping!!</span><span class="quote">&rdquo;</span><br>
           <cite>
-            <strong>- Brandi Price</strong>
+            <strong>- Brandi Price, RN</strong>
           </cite>
         </blockquote>
       </div>
@@ -120,73 +122,332 @@
   <!-- PRODUCTS -->
   <section class="section-product" id="product">
     <div class="wrapper">
-      <div class="product-top box">
+      <div class="product-top">
         <h1 class="heading-primary-text">
           Products
         </h1>
       </div>
-      <div class="product-left box">
-        <div class="product-photo-box">
-          <img src="img/image1.jpeg" alt="Image 1" class="product-photo" id="product-image">
+
+      <div class="tops">
+        <h2>TOPS</h2>
+      </div>
+
+      <div class="box">
+        <div class="product-one product-form">
+          <div class="product-photo-box">
+            <img src="img/image1.jpeg" alt="Image 1" class="product-photo" id="product-image">
+
+            <div class="product-text product-price" id="product-text">29.99</div>
+
+            <!-- FORM START -->
+            <form action="#" class="product-selector">
+
+              <fieldset class="form-box">
+                <label for="top-color" class="form_label">Style</label><br>
+                <!-- TOP SIZE -->
+                <select name="top-color" id="top-color">
+                  <option value="light-blue">Light-Blue</option>
+                </select><br>
+                <!-- TOP COLOR -->
+                <label for="top-size" class="form_label">Size</label><br>
+                <select name="top-size" id="top-size">
+                  <option value="extra-small">Extra Small</option>
+                  <option value="small">Small</option>
+                  <option value="medium">Medium</option>
+                </select><br>
+
+                <label for="quantity" class="form_label">Quantity</label><br>
+
+                <input type="button" value="-" id="minus">
+                <input type="text" value="1" name="quantity" id="quantity">
+                <input type="button" value="+" id="plus">
+                <br>
+                <input type="submit" value="Add to Cart" class="btn-cart" id="submit">
+              </fieldset>
+            </form>
+          </div>
         </div>
 
+        <div class="product-one product-form">
+          <div class="product-photo-box">
+            <img src="img/image2.jpeg" alt="Image 1" class="product-photo" id="product-image">
 
-      </div>
+            <div class="product-text product-price" id="product-text">29.99</div>
 
-      <div class="product-middle product-form box">
-        <form action="#" class="product-selector">
-          <fieldset class="form-box">
-            <legend class="form-title">
-              Select your style
-            </legend>
-            <label for="top-color" class="form_label">Style</label><br>
-            <!-- TOP SIZE -->
-            <select name="top-color" id="top-color">
-              <option value="light-blue">Light-Blue</option>
-              <option value="pink">Pink</option>
-              <option value="black">Black</option>
-              <option value="blue">Royal Blue</option>
-            </select><br>
-            <!-- TOP COLOR -->
-            <label for="top-size" class="form_label">Top / Bottom Size</label><br>
-            <select name="top-size" id="top-size">
-              <option value="small">Small</option>
-              <option value="medium">Medium</option>
-              <option value="large">Large</option>
-              <option value="x-large">Extra Large</option>
-            </select><br>
+            <!-- FORM START -->
+            <form action="#" class="product-selector">
 
-            <label for="quantity" class="form_label">Quantity</label><br>
+              <fieldset class="form-box">
+                <label for="top-color" class="form_label">Style</label><br>
+                <!-- TOP SIZE -->
+                <select name="top-color" id="top-color">
+                  <option value="pink">Pink</option>
+                </select><br>
+                <!-- TOP COLOR -->
+                <label for="top-size" class="form_label">Size</label><br>
+                <select name="top-size" id="top-size">
+                  <option value="extra-small">Extra Small</option>
+                  <option value="small">Small</option>
+                  <option value="medium">Medium</option>
+                </select><br>
 
-            <input type="button" value="-" id="minus">
-            <input type="text" value="1" name="quantity" id="quantity">
-            <input type="button" value="+" id="plus">
-            <br>
-            <input type="submit" value="Add to Cart" class="btn-cart" id="submit">
-          </fieldset>
-        </form>
-      </div>
+                <label for="quantity" class="form_label">Quantity</label><br>
 
+                <input type="button" value="-" id="minus">
+                <input type="text" value="1" name="quantity" id="quantity">
+                <input type="button" value="+" id="plus">
+                <br>
+                <input type="submit" value="Add to Cart" class="btn-cart" id="submit">
+              </fieldset>
+            </form>
+          </div>
+        </div>
 
-      <div class="product-right">
-        <div class="product-text-box">
-          <div class="product-text product-price" id="product-text">29.99</div>
-          <ul class="product-item-list">
-            <li class="product-item">Comfortable material</li>
-            <li class="product-item">Strecthable</li>
-            <li class="product-item">Item Details 3</li>
-            <li class="product-item">Item Details 4</li>
-            <li class="product-item">Item Details 5</li>
-          </ul>
+        <div class="product-one product-form">
+          <div class="product-photo-box">
+            <img src="img/image3.jpeg" alt="Image 1" class="product-photo" id="product-image">
+
+            <div class="product-text product-price" id="product-text">29.99</div>
+
+            <!-- FORM START -->
+            <form action="#" class="product-selector">
+
+              <fieldset class="form-box">
+                <label for="top-color" class="form_label">Style</label><br>
+                <!-- TOP SIZE -->
+                <select name="top-color" id="top-color">
+                  <option value="black">Black</option>
+                    <option value="navy">Navy</option>
+                </select><br>
+                <!-- TOP COLOR -->
+                <label for="top-size" class="form_label">Size</label><br>
+                <select name="top-size" id="top-size">
+                  <option value="extra-small">X-Small</option>
+                  <option value="small">Small</option>
+                  <option value="medium">Medium</option>
+                </select><br>
+
+                <label for="quantity" class="form_label">Quantity</label><br>
+
+                <input type="button" value="-" id="minus">
+                <input type="text" value="1" name="quantity" id="quantity">
+                <input type="button" value="+" id="plus">
+                <br>
+                <input type="submit" value="Add to Cart" class="btn-cart" id="submit">
+              </fieldset>
+            </form>
+          </div>
+        </div>
+
+        <div class="product-one product-form">
+          <div class="product-photo-box">
+            <img src="img/image4.jpeg" alt="Image 1" class="product-photo" id="product-image">
+
+            <div class="product-text product-price" id="product-text">29.99</div>
+
+            <!-- FORM START -->
+            <form action="#" class="product-selector">
+
+              <fieldset class="form-box">
+                <label for="top-color" class="form_label">Style</label><br>
+                <!-- TOP SIZE -->
+                <select name="top-color" id="top-color">
+                  <option value="blue">Royal Blue</option>
+                </select><br>
+                <!-- TOP COLOR -->
+                <label for="top-size" class="form_label">Size</label><br>
+                <select name="top-size" id="top-size">
+                  <option value="extra-small">Extra Small</option>
+                  <option value="small">Small</option>
+                  <option value="medium">Medium</option>
+                </select><br>
+
+                <label for="quantity" class="form_label">Quantity</label><br>
+
+                <input type="button" value="-" id="minus">
+                <input type="text" value="1" name="quantity" id="quantity">
+                <input type="button" value="+" id="plus">
+                <br>
+                <input type="submit" value="Add to Cart" class="btn-cart" id="submit">
+              </fieldset>
+            </form>
+          </div>
+        </div>
+
+        <!-- <div class="product-four">
+          <div class="product-text-box">
+            <div class="product-text product-price" id="product-text">29.99</div>
+            <ul class="product-item-list">
+              <li class="product-item">Comfortable material</li>
+              <li class="product-item">Strecthable</li>
+              <li class="product-item">Item Details 3</li>
+              <li class="product-item">Item Details 4</li>
+              <li class="product-item">Item Details 5</li>
+            </ul>
+          </div>
         </div>
       </div>
-    </div>
+-->
+      </div>
 
-    <div class=product-about-bottom>
-      <h3 class="product-bottom-text">
-        A Céleste Design has you covered for ALL your scrub needs!
-      </h3>
-    </div>
+      <div class="bottoms">
+        <h2>BOTTOMS</h2>
+      </div>
+
+      <div class="box">
+        <div class="product-one product-form">
+          <div class="product-photo-box">
+            <img src="img/image1.jpeg" alt="Image 1" class="product-photo" id="product-image">
+
+            <div class="product-text product-price" id="product-text">29.99</div>
+
+            <!-- FORM START -->
+            <form action="#" class="product-selector">
+
+              <fieldset class="form-box">
+                <label for="top-color" class="form_label">Style</label><br>
+                <!-- TOP SIZE -->
+                <select name="top-color" id="top-color">
+                  <option value="light-blue">Light-Blue</option>
+                </select><br>
+                <!-- TOP COLOR -->
+                <label for="top-size" class="form_label">Size</label><br>
+                <select name="top-size" id="top-size">
+                  <option value="extra-small">Extra Small</option>
+                  <option value="small">Small</option>
+                  <option value="medium">Medium</option>
+                  <option value="large">Large</option>
+                </select><br>
+
+                <label for="quantity" class="form_label">Quantity</label><br>
+
+                <input type="button" value="-" id="minus">
+                <input type="text" value="1" name="quantity" id="quantity">
+                <input type="button" value="+" id="plus">
+                <br>
+                <input type="submit" value="Add to Cart" class="btn-cart" id="submit">
+              </fieldset>
+            </form>
+          </div>
+        </div>
+
+        <div class="product-one product-form">
+          <div class="product-photo-box">
+            <img src="img/image2.jpeg" alt="Image 1" class="product-photo" id="product-image">
+
+            <div class="product-text product-price" id="product-text">29.99</div>
+
+            <!-- FORM START -->
+            <form action="#" class="product-selector">
+
+              <fieldset class="form-box">
+                <label for="top-color" class="form_label">Style</label><br>
+                <!-- TOP SIZE -->
+                <select name="top-color" id="top-color">
+                  <option value="pink">Pink</option>
+                </select><br>
+                <!-- TOP COLOR -->
+                <label for="top-size" class="form_label">Size</label><br>
+                <select name="top-size" id="top-size">
+                  <option value="extra-small">Extra Small</option>
+                  <option value="small">Small</option>
+                  <option value="medium">Medium</option>
+                  <option value="large">Large</option>
+                </select><br>
+
+                <label for="quantity" class="form_label">Quantity</label><br>
+
+                <input type="button" value="-" id="minus">
+                <input type="text" value="1" name="quantity" id="quantity">
+                <input type="button" value="+" id="plus">
+                <br>
+                <input type="submit" value="Add to Cart" class="btn-cart" id="submit">
+              </fieldset>
+            </form>
+          </div>
+        </div>
+
+        <div class="product-one product-form">
+          <div class="product-photo-box">
+            <img src="img/image3.jpeg" alt="Image 1" class="product-photo" id="product-image">
+
+            <div class="product-text product-price" id="product-text">29.99</div>
+
+            <!-- FORM START -->
+            <form action="#" class="product-selector">
+
+              <fieldset class="form-box">
+                <label for="top-color" class="form_label">Style</label><br>
+                <!-- TOP SIZE -->
+                <select name="top-color" id="top-color">
+                  <option value="black">Black</option>
+                    <option value="navy">Navy</option>
+                </select><br>
+                <!-- TOP COLOR -->
+                <label for="top-size" class="form_label">Size</label><br>
+                <select name="top-size" id="top-size">
+                  <option value="extra-small">X-Small</option>
+                  <option value="small">Small</option>
+                  <option value="medium">Medium</option>
+                  <option value="large">Large</option>
+                  <option value="extra-large">X-Large</option>
+                  <option value="XX-large">XX-Large</option>
+                </select><br>
+
+                <label for="quantity" class="form_label">Quantity</label><br>
+
+                <input type="button" value="-" id="minus">
+                <input type="text" value="1" name="quantity" id="quantity">
+                <input type="button" value="+" id="plus">
+                <br>
+                <input type="submit" value="Add to Cart" class="btn-cart" id="submit">
+              </fieldset>
+            </form>
+          </div>
+        </div>
+
+        <div class="product-one product-form">
+          <div class="product-photo-box">
+            <img src="img/image4.jpeg" alt="Image 1" class="product-photo" id="product-image">
+
+            <div class="product-text product-price" id="product-text">29.99</div>
+
+            <!-- FORM START -->
+            <form action="#" class="product-selector">
+
+              <fieldset class="form-box">
+                <label for="top-color" class="form_label">Style</label><br>
+                <!-- TOP SIZE -->
+                <select name="top-color" id="top-color">
+                  <option value="blue">Royal Blue</option>
+                </select><br>
+                <!-- TOP COLOR -->
+                <label for="top-size" class="form_label">Size</label><br>
+                <select name="top-size" id="top-size">
+                  <option value="extra-small">Extra Small</option>
+                  <option value="small">Small</option>
+                  <option value="medium">Medium</option>
+                  <option value="large">Large</option>
+                </select><br>
+
+                <label for="quantity" class="form_label">Quantity</label><br>
+
+                <input type="button" value="-" id="minus">
+                <input type="text" value="1" name="quantity" id="quantity">
+                <input type="button" value="+" id="plus">
+                <br>
+                <input type="submit" value="Add to Cart" class="btn-cart" id="submit">
+              </fieldset>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <div class=product-about-bottom>
+        <h3 class="product-bottom-text">
+          A Céleste Design has you covered for ALL your scrub needs!
+        </h3>
+      </div>
 
 
   </section>
@@ -205,7 +466,7 @@
         <h4>Phone:</h4>
         <p>(513) 400-0433</p>
         <h4>Email</h4>
-        <p>email@email.com</p>
+        <p>acelestedesign@gmail.com</p>
         <h4>Social Media</h4><a href="https://www.facebook.com/acelestedesign/?__tn__=kC-R&eid=ARDIJdmx-dNEnHxoPHPckfhX9kp2Lce70-qMGTMNEKlw38ujizrrYQ-XxNP2-Gh-o3E7fspTN87IMtjb&hc_ref=ARS82CMeDJAaBIm623yTfi2SnDDDELuUj7xqXcdGTBV0eR0smcAvFoBSw0uJCMihLpU&__xts__[0]=68.ARCGwvzrVtYmvA0rM5zSB2c_SlQjRSHgNaL748_sXxbMUPd7u_WNGypUljrVwn5ChwzMCDusF43nux-oH0NMe1QtIHd-UK1Z7FuVdAUojhUx2UTGdB2sYllCi7kuLZsW5aLeIcRI6aVopFokrAX1k6SpfzYHEWQOTH2krxbHCOYGo_CsYW8WoNOk3YtZosu9pDF6z3ELdAbBYV9TfJfobtb7EpCzUDB-xl0uRE_t_j60WDChYzk64wSqUUa_oqR8r6AlKlRrEvxSQrwze5da13nIGIBnqn21ULFW7I-Ul4oQiXY-UFI"
           class="">
           <span class="icon-size"><i class="fab fa-facebook-f"></i></span></a>

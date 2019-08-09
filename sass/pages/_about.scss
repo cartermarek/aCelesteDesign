@@ -2,8 +2,9 @@
 
 .section {
   &-about {
-      background-image: linear-gradient(to right bottom, rgba($color-black, .55), rgba($color-black, .25)), url("../img/citybackground.jpg");
+      background-image: linear-gradient(to right bottom, rgba($color-black, .55), rgba($color-black, .25)), url("../img/about-us-00.jpg");
       background-size: cover;
+      background-position: center;
       color: $color-white;
 
       &-text--big {
@@ -65,7 +66,7 @@
     color: $color-black;
     width: 60%;
     margin: 0 auto;
-    opacity: .85;
+    opacity: .65;
 }
 
 .quote {
