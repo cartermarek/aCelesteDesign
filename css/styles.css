@@ -23,6 +23,8 @@
   .white-bg-box {
     width: 75% !important;
     font-size: 50% !important; }
+  .box {
+    grid-template-columns: 1fr 1fr !important; }
   .wrapper {
     grid-template-columns: 1fr 1fr !important;
     font-size: 85%; }
@@ -64,9 +66,24 @@
   .header {
     height: 300px !important; } }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 500px) {
   .header {
-    height: 100px !important; }
+    height: 250px !important; }
+  .section-about-2 {
+    background-image: url("../img/about-us-00.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 250px !important;
+    width: 100% !important; }
+  .section-about {
+    background: #000 !important;
+    opacity: 0.7; }
+  .white-bg-box {
+    width: 100% !important; }
+  .box {
+    grid-template-columns: 1fr !important; }
+  .form-box {
+    margin-bottom: 10px !important; }
   html,
   body {
     font-size: 15px !important; } }
@@ -460,23 +477,28 @@ blockquote {
 .product {
   /* PRODUCT FORM */ }
   .product-photo-box {
-    text-align: center; }
-  .product-photo {
-    width: 225px;
-    height: auto;
-    box-shadow: 0 4px 6px rgba(181, 177, 177, 0.75);
-    border-radius: 5px;
-    border: 1px solid #000; }
-  .product-text-box {
     text-align: center;
-    line-height: 2;
-    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 3px;
     box-shadow: 0 4px 6px rgba(181, 177, 177, 0.75);
-    padding: 10px 20px;
-    width: 80%;
-    margin: auto 0;
-    border-radius: 5px;
+    width: 156px; }
+  .product-photo {
+    width: 155px !important;
+    height: 235px !important;
+    border-radius: 3px;
     border: 1px solid #000; }
+  .product-text {
+    margin-top: 10px; }
+    .product-text-box {
+      text-align: center;
+      line-height: 2;
+      background-color: #fff;
+      box-shadow: 0 4px 6px rgba(181, 177, 177, 0.75);
+      padding: 10px 20px;
+      width: 80%;
+      margin: auto 0;
+      border-radius: 5px;
+      border: 1px solid #000; }
   .product-item-list {
     list-style: none;
     padding: 0; }
@@ -502,7 +524,6 @@ blockquote {
 
 .form-box {
   padding: 10px;
-  box-shadow: 0 4px 6px rgba(181, 177, 177, 0.75);
   background: #fff;
   border-radius: 5px; }
 
