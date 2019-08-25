@@ -1,3 +1,10 @@
+
+<?php
+if($_POST["message"]) {
+    mail("cartermarek@gmail.com", "Inquiry/Question from Form to email message", $_POST["msg"], "From: an@email.address");
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 
